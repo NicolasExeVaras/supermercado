@@ -6,40 +6,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>Supermercado</title>
+    <meta name="description" content="Bienvenido a nuestro supermercado argentino: descubri ofertas semanales en alimentos, bebidas y productos frescos para tus compras online.">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg w-100 fondoNav">
-         <div class="container-fluid">
-            <img src="./assets/logo-achicado.png"style="width: 70px;">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#/index.html">Inicio</a>
-                    <a class="nav-link" href="./pages/productos.html">Productos</a>
-                    <a class="nav-link" href="./pages/quienes-somos.html">Quienes somos</a>
-                    <a class="nav-link" href="./pages/medios-de-pago.html">Medios de pago</a>
-                    <a class="nav-link" href="./pages/ubicacion.html">Ubicación</a>
-                </div>
+    <nav class="navbar navbar-expand-lg w-100 fondoNav">
+     <div class="container-fluid">
+        <img src="./assets/logo-achicado.png" style="width: 70px;" alt="Logo oficial del supermercado argentino">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#/index.html">Inicio</a>
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+                <a class="nav-link" href="./pages/quienes-somos.html">Quiénes somos</a>
+                <a class="nav-link" href="./pages/medios-de-pago.html">Medios de pago</a>
+                <a class="nav-link" href="./pages/ubicacion.html">Ubicación</a>
             </div>
-            <form class="d-flex" role="Buscador">
-                <input class="form-control me-2" type="Buscador" placeholder="Buscador" aria-label="Buscador"/>
-                <button class="btn botonHeader" type="submit">Buscar</button>
-            </form>
-            <img src="./assets/usuario.png"style="w-100" alt="icono de usuario">
-            <img src="./assets/carrito.png" alt="icono de carrito de compras">
         </div>
-        </nav>
-    </header>
-    <main>
-        <h1>Bienvenidos</h1>
-        <p class="ofertas">Ofertas Semanales</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <form class="d-flex" role="Buscador">
+            <input class="form-control me-2" type="Buscador" placeholder="Buscador" aria-label="Buscador"/>
+            <button class="btn botonHeader" type="submit">Buscar</button>
+        </form>
+        <img src="./assets/usuario.png" style="width: 40px;" alt="Icono de usuario del supermercado">
+        <img src="./assets/carrito.png" style="width: 40px;" alt="Carrito de compras del supermercado">
+    </div>
+    </nav>
+</header>
+
+<main>
+    <h1>Bienvenidos</h1>
+    <p class="ofertas">Ofertas Semanales</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
     <div class="col">
      <div class="card h-30">
-      <img src="./assets/producto.png" class="card-img-top" alt="Vino">
+      <img src="./assets/producto.png" class="card-img-top" alt="Botella de vino tinto en oferta en supermercado argentino">
       <div class="card-body">
         <h2 class="card-title">Vino</h2>
         <p class="card-text">$1000 (40% de descuento)</p>
@@ -47,19 +51,21 @@
       </div>
      </div>
     </div>
-     <div class="col">
+
+    <div class="col">
       <div class="card h-30">
-       <img src="./assets/producto.png" class="card-img-top" alt="Pritty">
+       <img src="./assets/producto.png" class="card-img-top" alt="Botella de gaseosa Pritty en promoción en supermercado local">
         <div class="card-body">
-            <h2 class="card-title">Prity</h2>
+            <h2 class="card-title">Pritty</h2>
             <p class="card-text">$700 (60% de descuento)</p>
             <a href="#" class="btn btn-primary">Añadir al carrito</a>
         </div>
       </div>
      </div>
+
     <div class="col">
      <div class="card h-30">
-      <img src="./assets/producto.png" class="card-img-top" alt="Hielo">
+      <img src="./assets/producto.png" class="card-img-top" alt="Bolsa de hielo en descuento en supermercado argentino">
       <div class="card-body">
         <h2 class="card-title">Hielo</h2>
         <p class="card-text">$80 (90% de descuento)</p>
@@ -67,19 +73,21 @@
       </div>
      </div>
     </div>
+
     <div class="col">
      <div class="card h-30">
-      <img src="./assets/producto.png" class="card-img-top" alt="Fanta">
+      <img src="./assets/producto.png" class="card-img-top" alt="Gaseosa Fanta con descuento en supermercado argentino">
       <div class="card-body">
         <h2 class="card-title">Fanta</h2>
-        <p class="card-text">$1000 (40% de descuento).</p>
+        <p class="card-text">$1000 (40% de descuento)</p>
         <a href="#" class="btn btn-primary">Añadir al carrito</a>
       </div>
      </div>
      </div>
+
     <div class="col">
      <div class="card h-30">
-      <img src="./assets/producto.png" class="card-img-top" alt="Fernet">
+      <img src="./assets/producto.png" class="card-img-top" alt="Botella de Fernet con promoción en supermercado argentino">
       <div class="card-body">
         <h2 class="card-title">Fernet</h2>
         <p class="card-text">$20000 (5% de descuento)</p>
@@ -87,14 +95,16 @@
       </div>
      </div>
     </div>
-    </main>
-    <footer>
-        <img src="./assets/logo-supermercado.png" alt="imagen de un carrito de supermercado que es el logo del supermercado">
-        <p>Contactanos: cel:xxxx xx xxxxxx tel:xxxx xxx</p>
-        <p>Copyright © Supermercado 2025.</p>
-        <p>Todos los derechos reservados.</p>
-        <p>Politicas de privacidad</p>
-    </footer>
+</main>
+
+<footer>
+    <img src="./assets/logo-supermercado.png" alt="Logo del supermercado argentino con carrito de compras">
+    <p>Contactanos: cel: xxxx xx xxxxxx tel: xxxx xxx</p>
+    <p>Copyright © Supermercado 2025.</p>
+    <p>Todos los derechos reservados.</p>
+    <p>Políticas de privacidad</p>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
